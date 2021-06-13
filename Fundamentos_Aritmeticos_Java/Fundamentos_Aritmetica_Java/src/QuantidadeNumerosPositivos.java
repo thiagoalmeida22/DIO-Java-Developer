@@ -1,6 +1,8 @@
 import java.util.*;
-// ESSA AQUI FUNCIONA, A OUTRA NÃO - MAS ELA NÃO TRATA INPUT ERRADO
-// (STRING, NULL ETC de entrada na linha 13!
+// Funciona, mas ela não checa se os inputs da linha 13 são inputs validos
+// e.g: se for passado o parametro null ou "asasasas" o programa não ignora esse valor
+// gostaria que ao passar um parametro errado, o index aumentasse e nada mais fosse feito ate o loop repetir
+// ou seja, o programa so checaria o sinal de 5...4...3..etc numeros
 public class QuantidadeNumerosPositivos {
 
     public static void main(String[] args) {
